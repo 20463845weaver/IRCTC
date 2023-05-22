@@ -8,9 +8,9 @@ import io.cucumber.testng.AbstractTestNGCucumberTests;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-		features = "/Users/anubhavchoudhary/eclipse-workspace/IRCTC/src/main/java/Features"
+		features = "/Users/anubhavchoudhary/git/repository/IRCTC/src/main/java/Features/LinkedInAccount.feature"
 		,glue={"Bindings"}
-//		,tags = "@ABC"
+		,tags = "@ABC"
 //		,dryRun = true,
 //		monochrome = true
 		)

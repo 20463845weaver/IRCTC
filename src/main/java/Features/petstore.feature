@@ -4,7 +4,7 @@ Feature: Validate petstore
 	@Petstore
   Scenario Outline: Login with valid credentials
     Given I open Sign in page
-    When I enter username <username> and password <password>
+    When I enter username "<username>" and password "<password>"
     And I click on login button
     Then I navigate to welcome page
 

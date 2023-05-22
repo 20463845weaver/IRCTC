@@ -1,6 +1,5 @@
 Feature: Login Feature
 
-#@ABC
 Scenario: Search in Nykaa Website with Valid data
 Given I Launch the Application
 When I Clicked on Search area
