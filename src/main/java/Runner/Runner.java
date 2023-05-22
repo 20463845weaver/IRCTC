@@ -4,18 +4,19 @@ import org.junit.runner.RunWith;
 
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
+import io.cucumber.testng.AbstractTestNGCucumberTests;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
 		features = "/Users/anubhavchoudhary/eclipse-workspace/IRCTC/src/main/java/Features"
 		,glue={"Bindings"}
-		,tags = "@Brands"
-		,dryRun = true
-
+//		,tags = "@ABC"
+//		,dryRun = true,
+//		monochrome = true
 		)
 
 
-public class Runner {
+public class Runner extends AbstractTestNGCucumberTests{
 
 }
                                          
